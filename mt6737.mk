@@ -182,4 +182,4 @@ PRODUCT_SYSTEM_SERVER_JARS += com.cyanogenmod.keyhandler
 
 $(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/XPe/config/common_full_phone.mk)
